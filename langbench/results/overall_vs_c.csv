@@ -1,0 +1,13 @@
+slug,language,setting,cpu_vs_c,mem_vs_c
+c,C,default,1.0,1.0
+cpp,C++,default,0.96,1.57
+rust,Rust,default,1.02,1.1
+go,Go,default,1.56,1.38
+go,Go,capped,1.49,1.36
+java,Java,default,1.59,16.13
+java,Java,capped,1.48,8.93
+csharp,C#,default,1.77,6.29
+csharp,C#,capped,1.65,7.04
+python,Python,default,8.35,2.91
+node,Node.js,default,4.32,13.66
+node,Node.js,capped,3.97,12.18

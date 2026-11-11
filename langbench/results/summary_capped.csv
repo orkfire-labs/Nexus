@@ -1,0 +1,25 @@
+workload,language,wall_s_median,cpu_s_median,peak_rss_mb_median,checksum
+noop,Java (capped),0.06,0.06,36.8,0
+noop,C# (capped),0.05,0.04,22.6,0
+noop,Node.js (capped),0.05,0.04,41.9,0
+noop,Go (capped),0.0,0.0,1.9,0
+factmod,Java (capped),0.28,0.27,37.4,67347853
+factmod,C# (capped),0.26,0.25,22.8,67347853
+factmod,Node.js (capped),2.9,2.86,49.4,67347853
+factmod,Go (capped),0.24,0.24,1.9,67347853
+bigfact,Java (capped),5.46,5.28,64.1,1516705
+bigfact,C# (capped),4.28,4.34,45.4,1516705
+bigfact,Node.js (capped),6.92,6.79,118.3,1516705
+bigfact,Go (capped),1.14,1.17,7.0,1516705
+fib,Java (capped),0.18,0.17,37.4,24157817
+fib,C# (capped),0.21,0.19,22.9,24157817
+fib,Node.js (capped),0.46,0.44,47.3,24157817
+fib,Go (capped),0.15,0.14,1.9,24157817
+trees,Java (capped),0.85,0.85,105.1,67283631
+trees,C# (capped),1.82,1.78,137.6,67283631
+trees,Node.js (capped),2.63,3.39,152.0,67283631
+trees,Go (capped),4.02,5.87,41.4,67283631
+sieve,Java (capped),2.11,2.08,134.5,5761455
+sieve,C# (capped),2.05,2.03,118.4,5761455
+sieve,Node.js (capped),2.07,2.06,142.3,5761455
+sieve,Go (capped),1.9,1.9,97.5,5761455

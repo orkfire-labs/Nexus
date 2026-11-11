@@ -1,0 +1,5 @@
+variant,label,cpu_s_median,cpu_s_min,cpu_s_max,wall_s_median,peak_rss_mb_median,checksum
+pure_python,Pure Python,8.7,8.45,9.030000000000001,8.8,10.5,240018 516112406412584
+per_doc,"Python + Rust, one call per document",2.5,2.25,2.75,2.52,11.1,240018 516112406412584
+job,"Python + Rust, one call for the whole job",2.18,2.11,2.35,2.21,11.0,240018 516112406412584
+pure_rust,Pure Rust,2.34,2.19,2.54,2.38,2.3,240018 516112406412584

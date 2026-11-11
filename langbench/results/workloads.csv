@@ -1,0 +1,7 @@
+workload,argument,stresses
+noop,0,Runtime start-up cost and baseline memory
+factmod,50000000,"n! mod 1e9+7, iterative: tight integer loop (pure CPU)"
+bigfact,100000,Exact 100000! with big integers: bigint library + heap growth
+fib,37,Naive recursive Fibonacci: function-call overhead
+trees,18,Allocate/free millions of binary-tree nodes: allocator & GC
+sieve,100000000,Sieve of Eratosthenes over 100M flags: memory bandwidth & array layout
